@@ -34,7 +34,7 @@ async function getData() {
   });
 
   document.addEventListener("touchend", () => {
-    index > 3 ? prevMovie() : nextMovie(length)
+    index < 3 ? prevMovie() : nextMovie(length)
   })
   return data
 }
