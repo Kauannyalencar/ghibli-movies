@@ -16,3 +16,4 @@
 <li>🔥JavaScript</li>
 <li><a href="https://ghibli.rest/docs/#/">Studio Ghibli Api rest</a></li>
 </ul>
+<p><a href="https://kauannyalencar.github.io/ghibli-movies/">Deploy</a></p>
