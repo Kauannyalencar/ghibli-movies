@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghibli api</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <img src="assets/img/glhibli-logo-removebg-preview.png" class="logo" alt="">
+    <div class="search">
+      <input type="text" class="inputSearch" placeholder="Search">
+      <img src="assets/img/search.png" width="15" alt="">
+    </div>
+    <nav>
+      <ul class="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#movies">Movies</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="home" id="home">
+    <section class="content">
+      <i class='bx bxs-right-arrow-alt'></i>
+        <div class="slide">
+          <div class="card-slide">
+            <img src="" alt="" class="banner-movie">
+            <div class="infor-movie">
+              <h1 class="titulo-movie"></h1>
+              <p class="movie-desc"></p>
+            </div>
+          </div>
+        </div>
+      <i class='bx bxs-left-arrow-alt'></i>
+    </section>
+    <section id="movies" class="movies-container">
+      <h2 class="container-title">Movies</h2>
+      <div class="movies"></div>
+    </section>
+  </main>
+  <script src="index.js"></script>
+
+</body>
+
+</html>
